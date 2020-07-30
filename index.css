@@ -1,0 +1,406 @@
+html body {
+    font-size: 24px;
+    color: #606569;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+.logo-bg {
+    width: 100%;
+    height: 1600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.logo-outer {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+.logo-box {
+    padding: 130px 0px 0px 130px;
+    width: 688px;
+}
+
+.logo-icon {
+    width: 70%;
+}
+
+.logo-text {
+    margin-top: 54px;
+}
+
+.logo-type-box {
+    margin-top: 81px;
+    display: flex;
+}
+
+.logo-type-red {
+    width: 275px;
+    height: 78px;
+    border-radius: 10px;
+    background-color: #EC6158;
+    color: #fff;
+    text-align: center;
+    line-height: 78px;
+    margin-right: 60px;
+}
+
+.logo-type-black {
+    width: 275px;
+    height: 78px;
+    border-radius: 10px;
+    background-color: #2D313B;
+    color: #fff;
+    text-align: center;
+    line-height: 78px;
+}
+
+
+
+
+/* student */
+
+
+
+
+.student-bg {
+    position: relative;
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    margin: 208px auto auto;
+
+}
+
+.student-logo-box {
+    width: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.student-logo {
+    width: 520px;
+}
+
+.student-text-box {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 50px;
+}
+
+.student-head {
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.student-list {
+    margin-top: 40px;
+}
+
+.student-list-text {
+    margin-bottom: 29px;
+    position: relative;
+    padding-left: 26px;
+}
+
+.red-square::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 16px;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background-color: #EC6158;
+}
+
+.yellow-square::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 16px;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background-color: #FFB83E;
+}
+
+.green-square::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 16px;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background-color: #419273;
+}
+
+.student-circle {
+    position: absolute;
+    right: 0px;
+    top: 100px;
+    width: 38px;
+    height: 38px;
+}
+
+.student-square {
+    position: absolute;
+    right: 300px;
+    bottom: 100px;
+    width: 21px;
+    height: 21px;
+}
+
+
+
+/* teacher */
+
+
+
+.teacher-bg {
+    position: relative;
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    margin: 208px auto auto;
+}
+
+.teacher-text-box {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.teacher-head {
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.teacher-list {
+    margin-top: 40px;
+}
+
+.teacher-list-text {
+    margin-bottom: 29px;
+    position: relative;
+    padding-left: 26px;
+}
+
+
+.teacher-logo-box {
+    width: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teacher-logo {
+    width: 520px;
+}
+
+.teacher-circle {
+    position: absolute;
+    right: 0px;
+    top: 100px;
+    width: 38px;
+    height: 38px;
+}
+
+.teacher-square {
+    position: absolute;
+    right: 300px;
+    bottom: 100px;
+    width: 21px;
+    height: 21px;
+}
+
+
+/* pink */
+
+
+
+.pink-bg {
+    margin-top: 300px;
+    padding: 300px 0px;
+    margin: auto;
+    text-align: center;
+    background-color: #FDF4F5;
+}
+
+.card-head {
+    font-size: 56px;
+    color: #3A3532;
+    font-weight: bold;
+}
+
+.card-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+}
+
+.card-1 {
+    margin: 0px 50px 0px 0px;
+}
+
+.card-2 {
+    margin: 300px 50px 0px 0px;
+}
+
+.card-3 {
+    margin-top: 150px;
+}
+
+.service-head {
+    font-size: 56px;
+    color: #3A3532;
+    font-weight: bold;
+    margin-top: 360px;
+}
+
+.phone-icon-box {
+    position: relative;
+    margin: 160px auto 0px;
+    width: 100%;
+    height: 690px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.phone-list-box {
+    width: 500px;
+    text-align: left;
+    margin: 190px 0px 0px 315px;
+}
+
+.phone-list {
+    margin-bottom: 45px;
+    padding-left: 26px;
+    position: relative;
+}
+
+.blue-square::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 16px;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background-color: #ACDFE2;
+}
+
+.purple-square::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 16px;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background-color: #DDC6F9;
+}
+
+
+
+/* today */
+
+
+
+.today-bg {
+    padding: 260px 0px 90px;
+    margin: auto;
+    text-align: center;
+}
+
+.today-head {
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.today-sub {
+    margin-top: 27px;
+}
+
+.today-form {
+    margin-top: 116px;
+    display: flex;
+    justify-content: center;
+}
+
+.today-input {
+    margin-right: 58px;
+}
+
+.today-btn {
+
+}
+
+
+
+/* footer */
+
+
+
+.footer-icon-box {
+
+}
+
+.footer-icon {
+
+}
+
+.footer {
+
+}
+
+.footer-inner {
+
+}
+
+.footer-line {
+    width: 100%;
+    height: 1px;
+}
+
+.footer-tab {
+
+}
+
+.footer-store {
+
+}
+
+.footer-social-box {
+
+}
+
+.footer-mail {
+
+}
+
+.footer-social {
+    width: 28px;
+    height: 28px;
+}
