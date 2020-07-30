@@ -17,14 +17,14 @@
                     Connecting with student & teacher with the easiest way.You foerver softwarehen it comes to learn or teach.
                 </div>
                 <div class="logo-type-box">
-                    <div class="logo-type-red">TYPE STUDENT</div>
-                    <div class="logo-type-black">TYPE TEACHER</div>
+                    <div onclick="scrollEvent('student')" class="logo-type-red">TYPE STUDENT</div>
+                    <div onclick="scrollEvent('teacher')"class="logo-type-black">TYPE TEACHER</div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="student-bg">
+    <div id="student" class="student-bg">
         <div class="student-logo-box">
             <img class="student-logo" src="./img/student-icon.png" alt="student">
         </div>
@@ -42,9 +42,9 @@
     </div>
 
 
-    <div class="teacher-bg">
+    <div id="teacher" class="teacher-bg">
         <div class="teacher-text-box">
-            <div class="teacher-head">student</div>
+            <div class="teacher-head">teacher</div>
             <div class="teacher-list">
                 <div class="teacher-list-text red-square">Create your own brand and work for yourself</div>
                 <div class="teacher-list-text yellow-square">No longer being asked by the middleman, the teacher earns 100%</div>
@@ -91,14 +91,16 @@
 
     <footer class="footer">
         <div class="footer-inner">
-            <div class="footer-line"></div>
+            <div class="footer-line-box">
+                <div class="footer-line"></div>
+            </div>
             <div class="footer-tab">
                 <img class="footer-store" src="./img/app-store.png" alt="store">
                 <div class="footer-social-box">
                     <div class="footer-mail">hello classever@gmail.com</div>
-                    <img class="footer-social" src="./img/twitter.png" alt="twitter">
-                    <img class="footer-social" src="./img/fb.png" alt="fb">
-                    <img class="footer-social" src="./img/ig.png" alt="ig">
+                    <a href="" target="_blank"><img class="footer-social" src="./img/twitter.png" alt="twitter">
+                    <a href="" target="_blank"><img class="footer-social" src="./img/fb.png" alt="fb"></a>
+                    <a href="" target="_blank"><img class="footer-social" src="./img/ig.png" alt="ig"></a>
                 </div>
             </div>
         </div>

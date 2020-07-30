@@ -47,6 +47,11 @@ html body {
     text-align: center;
     line-height: 78px;
     margin-right: 60px;
+    cursor: pointer;
+}
+
+.logo-type-red:hover {
+    opacity: 0.8;
 }
 
 .logo-type-black {
@@ -57,8 +62,12 @@ html body {
     color: #fff;
     text-align: center;
     line-height: 78px;
+    cursor: pointer;
 }
 
+.logo-type-black:hover {
+    opacity: 0.8;
+}
 
 
 
@@ -231,9 +240,8 @@ html body {
 
 
 .pink-bg {
-    margin-top: 300px;
     padding: 300px 0px;
-    margin: auto;
+    margin: 300px auto auto;
     text-align: center;
     background-color: #FDF4F5;
 }
@@ -330,8 +338,10 @@ html body {
 
 .today-bg {
     padding: 260px 0px 90px;
-    margin: auto;
+    margin: auto auto -2px;
     text-align: center;
+    background-color: #EC6158;
+    color: #fff;
 }
 
 .today-head {
@@ -350,11 +360,26 @@ html body {
 }
 
 .today-input {
+    width: 500px;
     margin-right: 58px;
+    padding-left: 25px;
+    font-size: 24px;
+    background-color: rgba(255, 255, 255,0.16);
+    border-radius: 6px;
+    border: 0px;
+    color: #fff;
+}
+
+.today-input:focus {
+    outline: none;
 }
 
 .today-btn {
+    cursor: pointer;
+}
 
+.today-btn:hover {
+    opacity: 0.8;
 }
 
 
@@ -364,43 +389,74 @@ html body {
 
 
 .footer-icon-box {
-
+    background-color: #EC6158;
+    margin-bottom: -4px;
 }
 
 .footer-icon {
-
+    width: 100%;
 }
 
 .footer {
-
+    width: 100%;
+    height: 300px;
+    background-color: #EC6158;
 }
 
 .footer-inner {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
 
+.footer-line-box {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
 }
 
 .footer-line {
     width: 100%;
     height: 1px;
+    background-color: #fff;
+    opacity: 0.25;
 }
 
 .footer-tab {
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
 }
 
 .footer-store {
+    cursor: pointer;
+}
 
+.footer-store:hover {
+    opacity: 0.8;
 }
 
 .footer-social-box {
-
+    display: flex;
+    align-items: center;
 }
 
 .footer-mail {
-
+    margin-right: 40px;
+    font-size: 20px;
 }
 
 .footer-social {
     width: 28px;
     height: 28px;
+    margin-left: 38px;
+    cursor: pointer;
+}
+
+.footer-social:hover {
+    opacity: 0.8;
 }
