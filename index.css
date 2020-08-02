@@ -292,6 +292,10 @@ html body {
     height: 100%;
 }
 
+.mobile-phone-icon-box {
+    display: none;
+}
+
 .blue-square::before {
     content: '';
     position: absolute;
@@ -655,8 +659,14 @@ html body {
     }
     
     .phone-icon-box {
-        width: 100%;
+        display: none;
+    }
+
+    .mobile-phone-icon-box {
+        display: block;
+        width: 80%;
         margin: 20px auto auto;
+        border-radius: 10px;
     }
     
     .blue-square::before {
@@ -753,6 +763,7 @@ html body {
     }
     
     .footer-mail {
+        width: 100%;
         margin: 0px 0px 20px;
         text-align: center;
         font-size: 16px;
