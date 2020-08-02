@@ -68,6 +68,10 @@ html body {
     opacity: 0.8;
 }
 
+.mobile-head-logo {
+    display: none;
+}
+
 
 
 /* student */
@@ -104,6 +108,7 @@ html body {
 }
 
 .student-head {
+    margin-top: 20px;
     font-size: 56px;
     font-weight: bold;
 }
@@ -440,6 +445,321 @@ html body {
     opacity: 0.8;
 }
 
-@media( max-width: 1280px ){
+@media( max-width: 1023px ){
+
+    html body {
+        font-size: 24px;
+    }
+    
+    .logo-bg {
+        background: none;
+        position: relative;
+        height: 100vh;
+    }
+    
+    .logo-outer {
+
+    }
+    
+    .logo-box {
+        width: 90%;
+        margin: auto;
+        padding: 50px 0px 0px;
+    }
+    
+    .logo-icon {
+
+    }
+    
+    .logo-text {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    
+    .logo-type-box {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    
+    .logo-type-red {
+        width: 180px;
+        margin: 0px;
+        font-size: 16px;
+        height: 50px;
+        line-height: 50px;
+    }
+    
+    .logo-type-black {
+        width: 180px;
+        margin-top: 20px;
+        font-size: 16px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    
+    .mobile-head-logo {
+        display: block;
+        width: 100%;
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        z-index: -1;
+    }
+    
+    
+    /* student */
+    
+    
+    
+    
+    .student-bg {
+        flex-direction: column;
+        margin: 30px auto auto;
+    }
+    
+    .student-logo-box {
+        width: 100%;
+        margin: 0px;
+    }
+    
+    .student-logo {
+        width: 60%;
+    }
+    
+    .student-text-box {
+        width: 80%;
+        margin: auto;
+        padding: 0px;
+    }
+    
+    .student-head {
+        font-size: 36px;
+        text-align: center;
+    }
+    
+    .student-list {
+        margin-top: 20px;
+    }
+    
+    .student-list-text {
+        font-size: 16px;
+    }
+    
+    .red-square::before {
+
+    }
+    
+    .yellow-square::before {
+
+    }
+    
+    .green-square::before {
+
+    }
+    
+    .student-circle {
+        display: none;
+    }
+    
+    .student-square {
+        display: none;
+    }
+    
+    
+    
+    /* teacher */
+    
+    
+    
+    .teacher-bg {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 30px auto auto;
+    }
+    
+    .teacher-text-box {
+        width: 80%;
+        margin: auto;
+        padding: 0px;
+    }
+    
+    .teacher-head {
+        margin-top: 20px;
+        font-size: 36px;
+        text-align: center;
+    }
+    
+    .teacher-list {
+        margin-top: 20px;
+    }
+    
+    .teacher-list-text {
+        font-size: 16px;
+    }
+    
+    
+    .teacher-logo-box {
+        width: 100%;
+    }
+    
+    .teacher-logo {
+        width: 60%;
+    }
+    
+    .teacher-circle {
+        display: none;
+    }
+    
+    .teacher-square {
+        display: none;
+    }
+    
+    
+    /* pink */
+    
+    
+    
+    .pink-bg {
+        margin: 30px auto auto;
+        padding: 26px 0px;
+    }
+    
+    .card-head {
+        font-size: 24px;
+    }
+    
+    .card-list {
+        flex-direction: column;
+    }
+    
+    .card {
+        width: 200px
+    }
+    
+    .card-1 {
+        margin: 20px 0px 0px 0px;
+    }
+    
+    .card-2 {
+        margin: 30px 0px 0px 0px;
+    }
+    
+    .card-3 {
+        margin: 30px 0px 0px 0px;
+    }
+    
+    .service-head {
+        font-size: 24px;
+        margin-top: 50px;
+    }
+    
+    .phone-icon-box {
+        width: 100%;
+        margin: 20px auto auto;
+    }
+    
+    .blue-square::before {
+
+    }
+    
+    .purple-square::before {
+
+    }
+    
+    
+    
+    /* today */
+    
+    
+    
+    .today-bg {
+        padding: 30px 0px 10px;
+    }
+    
+    .today-head {
+        font-size: 24px;
+    }
+    
+    .today-sub {
+        font-size: 14px;
+        width: 80%;
+        margin: 10px auto 16px;
+    }
+    
+    .today-form {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .today-input {
+        width: 80%;
+        height: 36px;
+        padding-left: 10px;
+        margin: 0px;
+        font-size: 16px;
+    }
+    
+    .today-btn {
+        width: 160px;
+        margin-top: 20px;
+    }
+    
+    
+    
+    
+    /* footer */
+    
+    
+    
+    .footer-icon-box {
+
+    }
+    
+    .footer-icon {
+
+    }
+    
+    .footer {
+        height: auto;
+        padding: 20px 0px;
+    }
+    
+    .footer-inner {
+
+    }
+    
+    .footer-line-box {
+        display: none;
+    }
+    
+    .footer-line {
+
+    }
+    
+    .footer-tab {
+        flex-direction: column;
+    }
+    
+    .footer-store {
+        width: 120px;
+    }
+    
+    .footer-social-box {
+        margin-top: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .footer-mail {
+        margin: 0px 0px 20px;
+        text-align: center;
+        font-size: 16px;
+    }
+    
+    .footer-social {
+        margin-left: 20px;
+    }
 
 }
