@@ -327,7 +327,8 @@ html body {
     padding: 260px 0px 90px;
     margin: auto auto -2px;
     text-align: center;
-    background-color: #EC6158;
+    /* background-color: #EC6158; */
+    background-color: #F85552;
     color: #fff;
 }
 
