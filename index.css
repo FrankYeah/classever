@@ -162,7 +162,7 @@ html body {
 
 .student-square {
     position: absolute;
-    right: 300px;
+    right: 0px;
     bottom: 100px;
     width: 21px;
     height: 21px;
@@ -420,12 +420,30 @@ html body {
     color: #fff;
 }
 
+.footer-store-box {
+    position: relative;
+}
+
 .footer-store {
+    height: 60px;
+    border-radius: 10px;
     cursor: pointer;
 }
 
 .footer-store:hover {
     opacity: 0.8;
+}
+
+.footer-float {
+    display: none;
+    position: absolute;
+    top: -150px;
+    left: 0px;
+    width: 400px;
+    padding: 12px;
+    background: white;
+    color: black;
+    border-radius: 10px;
 }
 
 .footer-social-box {
@@ -746,11 +764,18 @@ html body {
     }
     
     .footer-store {
-        width: 120px;
+        height: 43px;
+    }
+
+    .footer-float {
+        top: -86px;
+        width: 200px;
+        padding: 10px;
+        font-size: 12px;
     }
     
     .footer-social-box {
-        margin-top: 20px;
+        margin-top: 8px;
         flex-wrap: wrap;
         justify-content: center;
     }
