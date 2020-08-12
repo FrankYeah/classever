@@ -467,6 +467,12 @@ html body {
     opacity: 0.8;
 }
 
+.footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .footer-right {
     margin-top: 10px;
     color: white;
@@ -804,7 +810,7 @@ html body {
 
     .footer-right {
         font-size: 12px;
-        margin: 18px 0px 14px;
+        margin: 24px 0px 14px;
     }
 
 }
