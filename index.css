@@ -467,6 +467,13 @@ html body {
     opacity: 0.8;
 }
 
+.footer-right {
+    margin-top: 10px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
 @media( max-width: 1023px ){
 
     html body {
@@ -762,6 +769,10 @@ html body {
     .footer-tab {
         flex-direction: column;
     }
+
+    .footer-store-box {
+        margin: 10px 0px;
+    }
     
     .footer-store {
         height: 43px;
@@ -782,13 +793,18 @@ html body {
     
     .footer-mail {
         width: 100%;
-        margin: 0px 0px 20px;
+        margin: 10px 0px 30px;
         text-align: center;
         font-size: 16px;
     }
     
     .footer-social {
         margin-left: 20px;
+    }
+
+    .footer-right {
+        font-size: 12px;
+        margin: 18px 0px 14px;
     }
 
 }
